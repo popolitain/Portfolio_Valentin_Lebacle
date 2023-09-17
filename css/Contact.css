@@ -1,0 +1,96 @@
+div.CenterForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    position: relative;
+    width: 560px;
+    height: auto;
+    margin: 0 auto;
+    color: rgb(0, 39, 232);
+    background: #f5f5f5;
+    border-radius: 30px;
+    box-shadow: 0 5px 50px rgba(75, 75, 75, 0.232);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+form p {
+    color: rgb(19, 19, 19);
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: bold;
+    cursor: default;
+}
+
+label {
+    color: rgb(19, 19, 19);
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: bold;
+    cursor: default;
+}
+
+#formcase {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(46, 48, 70);
+}
+
+input {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    position: relative;
+    background-color: white;
+    color: #003459;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#rep {
+    font-weight: bold;
+    color: #003459;
+    margin-left: 25%;
+    font-size: 1.4em;
+}
+
+/* animation form */
+form:hover {
+    transform: scale(1.02);
+}
+
+textarea {
+    max-height: 200px;
+    max-width: 90%;
+    min-height: 20px;
+    min-width: 80%;
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
